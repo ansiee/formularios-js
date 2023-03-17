@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #111827;
+}
+
+header{
+    display: flex;
+    align-items: flex-start;
+    width: 1167.98px;
+    text-align: start;
+}
+
+header h2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFFFFF;
+    top: 80px;
+    margin-left: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+header img{
+    width: 16px;
+    margin-top: 126px;
+
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    width: 480px;
+    height: 476px;
+}
+
+.area-login{
+    width: 480px;
+    height: 476px;
+    background: #F9F9FB;
+    border-radius: 4px;
+}
+
+.formulario-caixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 64px;
+}
+
+.area-login h1{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.email{
+    
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7C7C89; 
+
+    width: 400px;
+    height: 48px;
+    background: rgba(113, 128, 185, 0.32) url(./img/EnvelopeSimple.svg);background-repeat: no-repeat;
+    border-radius: 4px;
+    border: none;
+
+    background-position: 12px;
+    padding: 0px 50px;
+}
+
+.senha{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #7C7C89; 
+
+    width: 400px;
+    height: 48px;
+    background: rgba(113, 128, 185, 0.32) url(./img/Lock.svg);
+    background-repeat: no-repeat;
+    border-radius: 4px;
+
+    background-position: 12px;
+    padding: 0px 50px;
+
+    border: 2px solid transparent;
+}
+
+button{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    width: 400px;
+    height: 48px;
+    background: #7180B9;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.linha{
+    width: 124px;
+    height: 0px;
+
+    border: 2px solid rgba(0, 0, 0, 0.32);
+}
+
+.form-logins{
+    display: flex;
+    justify-content: center;
+    gap: 29px;
+}
+
+.form-logins h1{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+    display: flex;
+    align-items:center;
+
+}
+
+.submit-github{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    background-image: url(./img/Vector.svg);
+    background-repeat: no-repeat;
+
+    width: 244px;
+    height: 48px;
+
+    background-color: #7180B9;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+    background-position: 52px;
+}
