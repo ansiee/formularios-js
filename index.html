@@ -21,7 +21,11 @@
             <h1>Login</h1>
             <div class="form-email">
               <input
-                class="email" type="email" name="email" id="email" placeholder="E-mail" required
+                class="email"
+                type="text"
+                name="email"
+                id="email"
+                placeholder="E-mail"
               />
             </div>
 
@@ -32,21 +36,23 @@
                 name="senha"
                 id="senha"
                 placeholder="*******"
-                required
               />
             </div>
 
             <div class="form-button">
               <button type="submit" id="loginBtn">Login</button>
             </div>
-
-            <div class="linha"></div>
-
-            <div class="form-logins">
-              <h1>ou entre com</h1>
-              <input class="submit-github" type="submit" value="GitHub" />
-            </div>
           </form>
+          <div class="linha"></div>
+
+          <p id="status" style="display: none"></p>
+
+          <div class="form-logins">
+            <h1>ou entre com</h1>
+            <a href="https://github.com"
+              ><input class="submit-github" type="submit" value="GitHub"
+            /></a>
+          </div>
         </div>
       </div>
     </div>

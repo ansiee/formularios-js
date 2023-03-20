@@ -42,7 +42,7 @@ header img{
 
 }
 
-.formulario{
+.area-login{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,14 +50,15 @@ header img{
     gap: 24px;
     width: 480px;
     height: 476px;
+    background: #F9F9FB;
 }
 
-.area-login{
-    width: 480px;
-    height: 476px;
-    background: #F9F9FB;
-    border-radius: 4px;
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
 }
+
 
 .formulario-caixa{
     display: flex;
@@ -72,6 +73,10 @@ header img{
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .email{
@@ -111,7 +116,7 @@ header img{
     border: 2px solid transparent;
 }
 
-button{
+input, button{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
